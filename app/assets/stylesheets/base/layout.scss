@@ -15,9 +15,9 @@ body {
 button {
 	background-color: $light-blue;
 	border: 1px solid $dark-blue;
-	color: $white;
-	padding: 10px;
-	border-radius: 5px;
+	color: white;
+	padding: 8px;
+	border-radius: 3px;
 	transition: background-color 0.3s;
 	font-family: $sans-serif;
 	text-transform: uppercase;
@@ -48,4 +48,8 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+a:hover {
+	text-decoration: underline;
 }
