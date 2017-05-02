@@ -29,17 +29,18 @@
 .right-nav > ul > li:last-of-type {
   padding: 7px 10px;
   margin-left: 5px;
+  position: relative;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
   background-color: $lightest-gray;
+  cursor: pointer;
 }
 
 .left-nav span {
   margin-left: 10px;
 }
-
 
 .right-nav i {
   font-size: 18px;
